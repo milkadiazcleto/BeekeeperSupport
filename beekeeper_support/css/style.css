@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+p, h1, h2, h3, h4, h5, h6, li, a, label, button {
+  font-family: "Ubuntu", sans-serif;
+  color: #47525E;
+}
+
+.ctn-navBar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.ctn-navBar ul {
+  list-style: none;
+}
+.ctn-navBar ul li {
+  margin: 30px 50px;
+}
+.ctn-navBar ul li a {
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em 3em;
+  margin: -2em;
+}
+.ctn-navBar ul li a:hover {
+  background-color: #FFD185;
+  color: #47525E;
+  text-decoration: none;
+}
+.ctn-navBar img {
+  width: 100px;
+  height: 90px;
+  margin: 10px 40px;
+}
+
+.ctn-infoSupport .ctn-text {
+  padding: 90px 0px;
+  margin-left: 70px;
+}
+.ctn-infoSupport .ctn-text .ctn-mail img {
+  width: 35px;
+  height: 30px;
+}
+.ctn-infoSupport .ctn-text .ctn-mail .row {
+  margin-right: -30px;
+}
+.ctn-infoSupport .ctn-text .ctn-phone img {
+  width: 35px;
+  height: 30px;
+  margin-left: 55px;
+}
+.ctn-infoSupport .ctn-text .ctn-phone .row {
+  margin-right: -330px;
+}
+.ctn-infoSupport .ctn-text .ctn-support {
+  font-size: 80px;
+  font-weight: bold;
+}
+.ctn-infoSupport .ctn-text button {
+  width: 200px;
+  height: 60px;
+  color: white;
+  border-radius: 12px;
+  background-color: #FFBA5C;
+}
+.ctn-infoSupport .ctn-computer img {
+  width: 50rem;
+  height: 30rem;
+  margin: 60px 0px -20px 0px;
+}
+.ctn-infoSupport::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 400px;
+  top: 122px;
+  right: 0;
+  background: url("../img/bg_top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ctn-services {
+  margin-left: 70px;
+}
+.ctn-services .ctn-qualityServ img {
+  width: 102px;
+  margin: 16px 100px;
+}
+.ctn-services .ctn-qualityServ h5 {
+  font-weight: bold;
+}
+.ctn-services::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  bottom: -200px;
+  left: 0;
+  background: url("../img/bg_bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ctn-infoTutorials .ctn-text {
+  padding: 100px 0px;
+}
+.ctn-infoTutorials .ctn-text .ctn-support {
+  font-size: 80px;
+  font-weight: bold;
+}
+.ctn-infoTutorials .ctn-woman {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.ctn-infoTutorials .ctn-woman img {
+  width: 35rem;
+  height: 30rem;
+}
+.ctn-infoTutorials::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 68%;
+  height: 400px;
+  top: 122px;
+  right: 0;
+  background: url("../img/bg_top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ctn-servicesTutorials .ctn-qualityServ img {
+  width: 102px;
+  margin: 16px 100px;
+}
+.ctn-servicesTutorials .ctn-qualityServ h5 {
+  font-weight: bold;
+}
+.ctn-servicesTutorials .row {
+  margin-bottom: 50px;
+}
+.ctn-servicesTutorials::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  bottom: -610px;
+  left: -80px;
+  background: url("../img/bg_bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ctn-QAs .ctn-division {
+  background-color: #FFBA5C;
+}
+.ctn-QAs .ctn-text {
+  padding: 20px 48px 20px 40px;
+}
+.ctn-QAs .ctn-text h5 {
+  color: #FFBA5C;
+}
+.ctn-QAs .ctn-text1 {
+  padding: 155px 290px 20px 40px;
+}
+.ctn-QAs .ctn-text1 h5 {
+  color: #FFBA5C;
+}
+.ctn-QAs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 400px;
+  top: 122px;
+  right: 0;
+  background: url("../img/bg_top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ctn-QAs::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  bottom: -980px;
+  left: 0;
+  background: url("../img/bg_bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.ctn-QAs .ctn-text8 {
+  padding: 20px 40px 20px 240px;
+}
+.ctn-QAs .ctn-text8 h5 {
+  color: #FFBA5C;
+}
+
+.ctn-contactUs .ctn-info img {
+  width: 50px;
+  height: 50px;
+  margin: 124px 0px 20px 130px;
+}
+.ctn-contactUs .ctn-info p {
+  margin-left: 98px;
+}
+.ctn-contactUs .ctn-contact {
+  margin-top: 20px;
+  width: 1050px;
+  background-color: rgba(255, 186, 92, 0.39);
+}
+.ctn-contactUs .ctn-contact form {
+  padding: 24px 40px 24px 40px;
+}
+.ctn-contactUs .ctn-contact form label {
+  color: #47525E;
+}
+.ctn-contactUs .ctn-contact img {
+  width: 600px;
+  padding: 10px 0px;
+}
+.ctn-contactUs .ctn-contact button {
+  border-radius: 0;
+  width: 150px;
+  height: 50px;
+  background-color: #47525E;
+  border-color: #47525E;
+  border-radius: 12px;
+}
+.ctn-contactUs .ctn-contact input.form-control {
+  border-radius: 0;
+  padding: 10px 10px;
+  border: 1px solid #47525E;
+  background-color: transparent;
+  border-radius: 12px;
+}
+.ctn-contactUs .ctn-contact textarea.form-control {
+  height: auto;
+  border-radius: 0;
+  border: 1px solid #47525E;
+  background-color: transparent;
+  border-radius: 12px;
+}
+.ctn-contactUs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 400px;
+  top: 122px;
+  right: 0;
+  background: url("../img/bg_top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ctn-contactUs::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  bottom: -250px;
+  left: -224px;
+  background: url("../img/bg_bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
