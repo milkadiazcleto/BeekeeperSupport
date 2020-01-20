@@ -21,21 +21,24 @@
     <div class="ctn-contactUs">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" style="margin-left: -50px;">
                     <div class="ctn-info">
                         <div class="row">
-                            <div class="col-4">
-                                <img src="img/phone-solid.svg" alt="">
-                                <p>809-123-4567</p>
+                            <div class="col-3" style="font-size: 22px; font-weight: bold;">
+                                <img src="img/phone-solid.svg" alt="">  
+                                <p>(809) 567-9271</p>                              
                             </div>
-                            <div class="col-4">
-                                <img src="img/clock-regular.svg" alt="">
-                                <p>Mondays - Saturdays</p>
-                                <p>8:00 AM to 8:00 PM</p>
+                            <div class="col-3" style="font-size: 20px; font-weight: bold;">                                
+                                <img src="img/clock-regular.svg" alt=""> 
+                                <p>Lunes - Sabados</p>
+                                <p>8:00AM | 8:00PM</p>                             
                             </div>
-                            <div class="col-4">
-                                <img src="img/map-marker-alt-solid.svg" alt="">
-                                <p>plokmijnuhbxuu</p>
+                            <div class="col-3">
+                                <a href="https://goo.gl/maps/KyG2RbdryULAyGMy7">
+                                    <img src="img/map-marker-alt-solid.svg" alt="">
+                                    <p style="font-size: 18px; font-weight: bold;" >Av. de Los Próceres 49, Santo Domingo 10602</p>
+                                </a>
+                               
                             </div>
                         </div>
                     </div>
@@ -43,24 +46,24 @@
                 <div class="col-12">
                     <div class="ctn-contact">
                         <div class="row">
-                            <div class="col-6">
-                                <img src="img/contact2.png" alt="">
+                            <div class="col-4" style="margin-top: 50px;margin-left: 80px; margin-right: 0px;">
+                                <img  style="width:280px;height:300px;" src="img/voice-message.png" alt="">
                             </div>
-                            <div class="col-6">
+                            <div class="col-6" style="margin-left: 5%;">
                                 <form>
-                                    <div class="form-group">
+                                    <div class="form-group" style="font-size: 18px; font-weight: bold;">
                                         <label>Nombre</label>
                                         <input class="form-control">
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group" style="font-size: 18px; font-weight: bold;">
                                         <label>Correo Electrónico</label>
                                         <input class="form-control">
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group" style="font-size: 18px; font-weight: bold;">
                                         <label>Comentario</label>
                                         <textarea class="form-control" rows="3"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                    <button class="btn btn-primary" style="margin-left:150px;" onclick="sendEmail()">Enviar</button>
                                 </form>
                             </div>
                         </div>
@@ -72,6 +75,27 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
     <script src="js/javascript.js"></script>
+
+    <script>
+    
+        function sendEmail() {
+            console.log('in function...');
+
+            // Email.send({
+            //     Host: "smtp.gmail.com",
+            //     Username : "gabomendez16@gmail.com",
+            //     Password : "mendez8296432322",
+            //     To : 'gabriel.mendez0@hotmail.com',
+            //     From : "gabomendez16@gmail.com",
+            //     Subject : "<email subject>",
+            //     Body : "<email body>",
+            // }).then(
+            //     message => alert("email sent successfully!")
+            // );
+        }
+    </script>
+
 </body>
 </html>
